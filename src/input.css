@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.social-icons {
+  width: 30px;
+  height: 30px;
+  padding: 6px;
+  border-radius: 60px;
+  /* background-color: red; */
+  /* background-color: white; */
+  border: 1px solid rgb(196, 193, 193);
+}
+.social-icons:hover {
+  background-color: hsl(223, 87%, 63%);
+  border: none;
+}
+.social-icons:hover path {
+  fill: white;
+}
+
+.error-outline {
+  @apply outline-lightRed;
+}
